@@ -8,7 +8,11 @@ const routes: Routes = [
    {
     path: 'customers',
     loadChildren: () => import('./modules/customers/customers.module').then(m => m.CustomersModule)
-  },  
+  }, 
+  {
+    path: 'products',
+    loadChildren: () => import('./modules/products/products.module').then(m => m.ProductsModule)
+  },
   {path: "**",  redirectTo: ''} //This is a wildcard route, meaning if the user enters a route that does not exist, redirect to the home page  
 ];
 

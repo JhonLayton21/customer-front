@@ -1,4 +1,4 @@
 export const environment = {
     production: false,
-    API_ENDPOINT: 'http://localhost:80',// endpoint para desarrollo
+    API_ENDPOINT: 'http://localhost:8080',// endpoint para desarrollo
   };
